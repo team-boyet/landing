@@ -25,7 +25,7 @@ export const myNavbar = ()=> {
                     </span>
                 </button>
 
-                 <div className="collapse navbar-collapse" id="navmenu">
+                 <div className="collapse navbar-collapse justify-content-end" id="navmenu">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
                         <Nav.Link to="/" className="nav-link">
