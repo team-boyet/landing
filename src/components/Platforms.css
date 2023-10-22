@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
+* {
+    font-family: 'Calistoga', serif;
+}
+
+.platforms-container {
+    height: 500px;
+    background-color: #AD0000;
+}

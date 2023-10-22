@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Red+Hat+Text:wght@300&display=swap');
+
+* {
+    font-family: 'Calistoga', serif;
+}
+
+.about-container {
+    width: auto;
+    height: 500px;
+    background-color: #FFC040;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-image {
+    width: fit-content;
+    height: 381px;
+    box-shadow: 10px 10px black 5px;
+}
+
+.text-container {
+    margin-left: 137px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.text-container p {
+    margin-top: 30px;
+    font: lighter;
+    width: 300px;
+    text-align: start;
+    font-family: 'Red Hat Text', sans-serif;
+}
