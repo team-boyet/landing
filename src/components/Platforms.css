@@ -5,6 +5,60 @@
 }
 
 .platforms-container {
-    height: 500px;
+    height: auto;
+    padding: 0;
+    margin: 0;
     background-color: #AD0000;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.platforms-container h2 {
+    color: #FFFFFF;
+    letter-spacing: 5px;
+    padding-top: 50px;
+    text-align: center;
+    text-shadow: 0 0 5px #000000;
+    margin: 0;
+}
+
+.platforms-container-titles {
+    width: 1350px;
+    height: 330px;
+    margin-top: 28px;
+    margin-bottom: 45px;
+}
+
+.platforms-container-divide {
+    width: auto;
+    height: 150px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.platforms-container-titles #top {
+    margin-bottom: 30px;
+}
+
+.platform-titles {
+    width: 200px;
+    height: 150px;
+    background-color: #FFC040;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(94, 104, 121, .288);
+}
+
+.platform-titles p {
+    text-align: center;
+    width: 150px;
 }

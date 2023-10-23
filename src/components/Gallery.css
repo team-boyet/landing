@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Red+Hat+Text:wght@300&display=swap');
+
+.gallery-container {
+    width: auto;
+    height: 500px;
+    background-color: #05124D;
+}
+
+.gallery-container h2 {
+    color: #FFC040;
+    letter-spacing: 15px;
+    text-align: center;
+    padding-top: 50px;
+    text-shadow: 0 0 5px #000000;
+}
