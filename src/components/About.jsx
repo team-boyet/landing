@@ -7,7 +7,7 @@ function About() {
             <img src={AboutImage} className="about-image" />
             <div className="text-container">
                 <h2>ABOUT US</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non auctor quam, ac pretium ipsum. Fusce a semper justo. Quisque nisi leo, tempor et ex at, feugiat malesuada felis. Vestibulum condimentum leo non metus condimentum, eu imperdiet</p>
+                <p>Team Boyet is a dedicated group of community members who wholeheartedly support Boyet's vision for our barangay. With a shared commitment to progress, unity, and positive change, we aim to work hand in hand with Boyet to build a brighter future for our community. Together, we strive to bring transparency, inclusivity, and effective leadership to our barangay, making it a better place for all residents.</p>
             </div>
         </div>
     </>;
