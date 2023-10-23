@@ -3,7 +3,7 @@ import "./Platforms.css";
 function Platforms() {
     return <>
         <div className="platforms-container">
-            <h2>SERBISYONG TOTOO, HINDI PAKITANG TAO</h2>
+            <h2 data-aos="fade-up"data-aos-duration="3000">SERBISYONG TOTOO, HINDI PAKITANG TAO</h2>
             <div className="platforms-container-titles">
                 <div className="platforms-container-divide" id="top">
                     <div className="platform-titles">
