@@ -5,6 +5,9 @@ import Platforms from './components/Platforms';
 import Gallery from './components/Gallery';
 import Header from './components/Header';
 
+import AOS from "aos";
+AOS.init();
+
 function App() {
   return (
     <div className="App">

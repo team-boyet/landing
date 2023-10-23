@@ -11,7 +11,7 @@ export const Header = () => {
                 <div className="container">
                     <Row>
                         <Col>
-                            <div className="header-slogan">
+                            <div data-aos="fade-up" data-aos-duration="1000" className="header-slogan">
                                 <a>{message1}</a>
                                 <a>{message1}</a>
                                 <a>{message1}</a>
