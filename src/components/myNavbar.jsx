@@ -12,7 +12,7 @@ export const myNavbar = ()=> {
             <Container>
                 <Navbar.Brand href="/home" className="nav-title">
                     <img id="navbar-logo" src={logo} alt="" />
-                    Team Boyet
+                    TEAM BOYET
                 </Navbar.Brand>
 
                 <button
@@ -30,17 +30,17 @@ export const myNavbar = ()=> {
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
                         <Nav.Link to="/about" className="nav-link">
-                            About
+                            ABOUT
                         </Nav.Link>
                         </li>
                         <li className="nav-item">
                         <Nav.Link to="/platforms" className="nav-link">
-                            Platforms
+                            PLATFORMS
                         </Nav.Link>
                         </li>
                         <li className="nav-item">
                         <Nav.Link to="/gallery" className="nav-link">
-                            Gallery
+                            GALLERY
                         </Nav.Link>
                         </li>
                     </ul>

@@ -1,6 +1,7 @@
 .header-bg{
-    background-color: #05124D;
+    background-image: url(../assets/large-triangles.svg);
     margin: 0%;
+    padding: 2rem;
 }
 
 .text-header{
@@ -10,4 +11,38 @@
 .header-slogan{
     color: white;
     margin: 0;
+}
+
+.header-logo{
+    padding: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo{
+    border-radius: 50%;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    overflow: hidden;
+}
+
+.header-text{
+    color: #FFC040;
+    font-family: var(--heading);
+    position: center;
+    text-shadow: 2px 2px #121212;
+    letter-spacing: 2px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 2rem 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.p{
+    padding: 0%;
 }
