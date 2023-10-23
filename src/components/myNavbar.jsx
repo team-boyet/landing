@@ -1,3 +1,4 @@
+
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -9,7 +10,7 @@ export const myNavbar = ()=> {
     return(
         <nav className="navbar navbar-expand-lg  py-3 d-flex justify-content-space-between shadow sticky-top">
             <Container>
-                <Navbar.Brand href="#home">
+                <Navbar.Brand href="#home" className="nav-title">
                     <img id="navbar-logo" src={logo} alt="" />
                     Team Boyet
                 </Navbar.Brand>
