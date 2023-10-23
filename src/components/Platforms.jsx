@@ -5,7 +5,7 @@ function Platforms() {
         <div className="platforms-container">
             <h2 data-aos="fade-up"data-aos-duration="3000">SERBISYONG TOTOO, HINDI PAKITANG TAO</h2>
             <div className="platforms-container-titles">
-                <div className="platforms-container-divide" id="top">
+                <div data-aos="fade-left"data-aos-duration="2000" className="platforms-container-divide" id="top">
                     <div className="platform-titles">
                         <p>From Barangay to a Community</p>
                     </div>
@@ -25,7 +25,7 @@ function Platforms() {
                         <p>Clean and Green Barangay</p>
                     </div>
                 </div>
-                <div className="platforms-container-divide" id="bottom">
+                <div data-aos="fade-right"data-aos-duration="2000" className="platforms-container-divide" id="bottom">
                     <div className="platform-titles">
                         <p>Drug Free Barangay</p>
                     </div>

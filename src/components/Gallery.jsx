@@ -102,9 +102,9 @@ import P15 from "../assets/gallery/P15.jpg";
 function Gallery() {
     return <>
         <div className="gallery-container">
-            <h2>GALLERY</h2>
+            <h2 data-aos="fade-up" data-aos-duration="3000" >GALLERY</h2>
             <div className="images-container">
-                <div className="L-row-images">
+                <div data-aos="fade-up" data-aos-duration="3000" className="L-row-images">
                     <img src={L1} />
                     <img src={L2} />
                     <img src={L3} />
@@ -112,7 +112,7 @@ function Gallery() {
                     <img src={L5} />
                     <img src={L6} />
                 </div>
-                <div className="L-row-images">
+                <div data-aos="fade-up" data-aos-duration="3000" className="L-row-images">
                     <img src={L7} />
                     <img src={L8} />
                     <img src={L9} />
@@ -120,7 +120,7 @@ function Gallery() {
                     <img src={L11} />
                     <img src={L12} />
                 </div>
-                <div className="L-row-images">
+                <div data-aos="fade-up" data-aos-duration="3000" className="L-row-images">
                     <img src={L13} />
                     <img src={L14} />
                     <img src={L15} />
@@ -128,7 +128,7 @@ function Gallery() {
                     <img src={L17} />
                     <img src={L18} />
                 </div>
-                <div className="L-row-images">
+                <div data-aos="fade-up" data-aos-duration="3000" className="L-row-images">
                     <img src={L19} />
                     <img src={L20} />
                     <img src={L21} />
@@ -136,7 +136,7 @@ function Gallery() {
                     <img src={L23} />
                     <img src={L24} />
                 </div>
-                <div className="L-row-images">
+                <div data-aos="fade-up" data-aos-duration="3000" className="L-row-images">
                     <img src={L25} />
                     <img src={L26} />
                     <img src={L27} />
@@ -144,7 +144,7 @@ function Gallery() {
                     <img src={L29} />
                     <img src={L30} />
                 </div>
-                <div className="L-row-images">
+                <div data-aos="fade-up" data-aos-duration="3000" className="L-row-images">
                     <img src={L31} />
                     <img src={L32} />
                     <img src={L33} />
@@ -152,7 +152,7 @@ function Gallery() {
                     <img src={L35} />
                     <img src={L36} />
                 </div>
-                <div className="L-row-images">
+                <div data-aos="fade-up" data-aos-duration="3000" className="L-row-images">
                     <img src={L37} />
                     <img src={L38} />
                     <img src={L39} />
@@ -160,7 +160,7 @@ function Gallery() {
                     <img src={L41} />
                     <img src={L42} />
                 </div>
-                <div className="L-row-images">
+                <div data-aos="fade-up" data-aos-duration="3000" className="L-row-images">
                     <img src={L43} />
                     <img src={L44} />
                     <img src={L45} />
@@ -168,7 +168,7 @@ function Gallery() {
                     <img src={L47} />
                     <img src={L48} />
                 </div>
-                <div className="L-row-images">
+                <div data-aos="fade-up" data-aos-duration="3000" className="L-row-images">
                     <img src={L49} />
                     <img src={L50} />
                     <img src={L51} />
@@ -176,7 +176,7 @@ function Gallery() {
                     <img src={L53} />
                     <img src={L54} />
                 </div>
-                <div className="L-row-images">
+                <div data-aos="fade-up" data-aos-duration="3000" className="L-row-images">
                     <img src={L55} />
                     <img src={L56} />
                     <img src={L57} />
@@ -184,7 +184,7 @@ function Gallery() {
                     <img src={L59} />
                     <img src={L60} />
                 </div>
-                <div className="L-row-images">
+                <div data-aos="fade-up" data-aos-duration="3000" className="L-row-images">
                     <img src={L61} />
                     <img src={L62} />
                     <img src={L63} />
@@ -192,7 +192,7 @@ function Gallery() {
                     <img src={L65} />
                     <img src={L66} />
                 </div>
-                <div className="L-row-images">
+                <div data-aos="fade-up" data-aos-duration="3000" className="L-row-images">
                     <img src={L67} />
                     <img src={L68} />
                     <img src={L69} />
@@ -200,7 +200,7 @@ function Gallery() {
                     <img src={L71} />
                     <img src={L72} />
                 </div>
-                <div className="L-row-images">
+                <div data-aos="fade-up" data-aos-duration="3000" className="L-row-images">
                     <img src={L73} />
                     <img src={L74} />
                     <img src={L75} />
@@ -208,7 +208,7 @@ function Gallery() {
                     <img src={L77} />
                     <img src={L78} />
                 </div>
-                <div className="L-row-images">
+                <div data-aos="fade-up" data-aos-duration="3000" className="L-row-images">
                     <img src={L79} />
                     <img src={L80} />
                     <img src={L81} />
@@ -216,27 +216,27 @@ function Gallery() {
                     <img src={L83} />
                     <img src={L84} />
                 </div>
-                <div className="P-row-images">
+                <div data-aos="fade-up" data-aos-duration="3000" className="P-row-images">
                     <img src={P1} />
                     <img src={P2} />
                     <img src={P3} />
                 </div>
-                <div className="P-row-images">
+                <div data-aos="fade-up" data-aos-duration="3000" className="P-row-images">
                     <img src={P4} />
                     <img src={P5} />
                     <img src={P6} />
                 </div>
-                <div className="P-row-images">
+                <div data-aos="fade-up" data-aos-duration="3000" className="P-row-images">
                     <img src={P7} />
                     <img src={P8} />
                     <img src={P9} />
                 </div>
-                <div className="P-row-images">
+                <div data-aos="fade-up" data-aos-duration="3000" className="P-row-images">
                     <img src={P10} />
                     <img src={P11} />
                     <img src={P12} />
                 </div>
-                <div className="P-row-images">
+                <div data-aos="fade-up" data-aos-duration="3000" className="P-row-images">
                     <img src={P13} />
                     <img src={P14} />
                     <img src={P15} />
