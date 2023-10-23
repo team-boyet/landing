@@ -2,8 +2,13 @@
 
 .gallery-container {
     width: auto;
-    height: 500px;
+    height: fit-content;
     background-color: #05124D;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .gallery-container h2 {
@@ -12,4 +17,20 @@
     text-align: center;
     padding-top: 50px;
     text-shadow: 0 0 5px #000000;
+}
+
+.images-container {
+
+}
+
+.L-row-images img {
+    width: 202px;
+    height: 280px;
+    margin: 5px;
+}
+
+.P-row-images img {
+    width: 414px;
+    height: 320px;
+    margin: 5px;
 }
